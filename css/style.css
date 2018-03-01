@@ -1,0 +1,44 @@
+body {
+  background: #DBDBDB;
+}
+.main_body {
+  height: 100%;
+  width: 1200px;
+  background: white;
+  margin: 0px auto;
+}
+.headerdiv {
+  background-color: #1a7216;
+  height: 170px;
+}
+.logo {
+  width: 125px;
+  margin: 20px;
+  margin-left: 100px;
+  float: left;
+}
+.headerdiv p {
+  font-size: 25px;
+  font-family: sans-serif;
+
+}
+.clr {
+  clear: left;
+}
+@font-face {
+  font-family: 'Siyam Rupali';
+  src: url('fonts/SiyamRupali.eot?version=1.070');
+  src: local('Siyam Rupali'), url('fonts/SiyamRupali.woff?version=1.070') format('woff'),       url('fonts/SiyamRupali.ttf?version=1.070') format('truetype');
+  font-style: normal;
+  unicode-range: U+0980-09FF; //Bangla Range (source: http://www.unicode.org/charts/PDF/U0980.pdf‎‎)
+}
+#banglatxt {
+  font-family: 'Siyam Rupali';
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+#englishtxt {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
