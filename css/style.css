@@ -4,21 +4,21 @@ body {
 .main_body {
   height: 100%;
   width: 1200px;
-  background: white;
+  /* background: white; */
   margin: 0px auto;
 }
 .headerdiv {
   background-color: #1a7216;
-  height: 170px;
+  height: 120px;
 }
 .logo {
-  width: 125px;
+  width: 80px;
   margin: 20px;
   margin-left: 100px;
   float: left;
 }
 .headerdiv p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: sans-serif;
 
 }
@@ -34,11 +34,89 @@ body {
 }
 #banglatxt {
   font-family: 'Siyam Rupali';
-  padding-top: 50px;
+  padding-top: 35px;
   color: white;
   font-weight: bold;
 }
-#englishtxt {
+#englishtxt1 {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
+  margin-top: -20px;
+  color: black;
+
+}
+.moving {
+  padding: 10px;
+  font-family: 'Siyam Rupali';
+  font-size: 15px;
+}
+.marquee {
+  background-color: #07c43c;
+  color: white;
+  border-top: 2px #048c2a solid;
+
+}
+.navcolor {
+  background-color: white;
+
+}
+.navcolor ul li a{
+  color: black;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.notice {
+  background-color: white;
+  max-width: 300px;
+  min-height: 400px;
+  border: 1px green solid;
+  margin: 5px;
+  border-radius: 7px;
+  float: left;
+}
+.noticeheader {
+  background-color: #058c2b;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+}
+.imgslide {
+  width: 900px;
+  max-height: 300px;
+  margin-left: 310px;
+  margin-top: 25px;
+}
+#movingnotice {
+  height: 380px;
+  margin: -5px 10px 5px 10px;
+}
+#movingnotice a {
+  padding: 10px;
+  text-decoration: none;
+}
+.clr {
+  clear: left;
+}
+.examination-plate {
+  min-height: 600px;
+}
+.log_plate {
+  width: 400px;
+  margin: 0 auto;
+  background-color: red;
+  color: red;
+  font-size: 100px;
+}
+.createQuestion {
+  background-color: red;
+}
+.welcome {
+  color: red;
 }

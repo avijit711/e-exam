@@ -1,0 +1,27 @@
+.report-style {
+  background-color: black;
+  color: white;
+  width: 1000px;
+  margin: auto;
+  border: 4px grey solid;
+  border-radius: 5px;
+  font-family: monospace;
+}
+.report-heading {
+  font-size: 30px;
+
+  font-weight: bold;
+}
+
+.report-simpleInput {
+  width: 700px;
+}
+
+.report-body {
+  width: 700px;
+  height: 200px;
+}
+form {
+  margin-left: 10px;
+  color: black;
+}

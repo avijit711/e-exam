@@ -1,0 +1,23 @@
+footer {
+  background-color: #036628;
+  height: 80px;
+  margin-top: 15px;
+  position:inherit;
+  bottom: 0px;
+  min-width: 1200px;
+
+}
+.footer-header {
+  color: #a8e0ba;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 18px;
+  margin-left: 30px;
+  float: left;
+}
+.developer {
+  position: absolute;
+  right: 80px;
+  margin-top: 15px;
+  color: #4f8244;
+}

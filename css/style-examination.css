@@ -1,0 +1,13 @@
+.examination-plate {
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px 0 10px 20px;
+  min-height: 400px;
+}
+.examination-plate a {
+  text-decoration: none;
+}
+#avijit {
+
+  font-size: 100px;
+}
